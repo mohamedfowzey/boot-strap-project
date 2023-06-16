@@ -1,7 +1,12 @@
+:root{
+    ---mc: #19c8fa
+}
+
 body{
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+/* .btn-primary{
+    border-radius:50%;
+    
+} */
