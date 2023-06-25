@@ -1,12 +1,137 @@
-:root{
-    ---mc: #19c8fa
+:root {
+  ---green: #19c8fa;
+  ---dark: #19283f;
+  ---red: #ff3150;
+  ---yellow: #ffc400;
+  ---section-color: #eff7fa;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
+* {
+  box-sizing: border-box;
 }
-/* .btn-primary{
-    border-radius:50%;
-    
-} */
+
+body {
+  box-sizing: border-box;
+  font-family: "roboto";
+  width: 100vw;
+  height: 200vh;
+}
+.fa-magnifying-glass {
+  border-left: 1px solid var(---green);
+  color: #19c8fa;
+  font-size: normal;
+  font-weight: 100;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(---green) !important;
+}
+.navbar {
+  background-color: var(---dark);
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background-color: var(---red);
+  color: var(---yellow);
+  font-size: 1.2em;
+}
+.btn:hover,
+.btn:active {
+  background-color: #db344d !important;
+}
+.navbar-toggler {
+  color: white;
+  border-color: var(---green);
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.land {
+  height: calc(100vh - 75px);
+  background-color: var(---dark);
+  flex-direction: column;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: var(---green);
+  transform: translatex(-50%);
+}
+
+.feat {
+  height: 400px;
+  flex-direction: column;
+}
+
+.feat .number {
+  font-size: 12em;
+  color: var(---section-color);
+}
+
+.feat .icon {
+  font-size: 2em;
+  color: var(---green);
+}
+
+.features ul li {
+  cursor: pointer;
+  font-size: large;
+  padding: 4px 16px;
+  text-transform: capitalize;
+}
+
+.features ul li.active {
+  background-color: var(---red);
+  color: var(---yellow);
+}
+
+.features ul li:not(.active):hover {
+  color: var(---red);
+}
+
+.work-item {
+  padding: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-item::after {
+  content: attr(project);
+  position: absolute;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  background-color: #19c8fa8c;
+  left: 5px;
+  bottom: 5px;
+  z-index: 2;
+  letter-spacing: 3px;
+  transform: translateX(calc(-100% - 5px));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 100;
+  transition: 0.3s;
+}
+
+.work-item:hover::after {
+  transform: translatex(0);
+}
+
+.features:nth-of-type(odd) {
+  background-color: var(---section-color);
+}

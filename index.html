@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>   <!-- 01155765978  -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,31 +13,128 @@
     <title>bootstrap demo</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-          <a class="navbar-brand" href="#">bondi</a>
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa-solid fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">portfolio</a>
+                <a class="nav-link p-2 p-lg-3" href="#">portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">about</a>
+                <a class="nav-link p-2 p-lg-3" href="#">about</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link p-2 p-lg-3" href="#">contact</a>
               </li>
             </ul>
-            <button type="button" class="btn btn-primary rounded-pill ms-4">Primary</button>
+            <i class="fa-solid fa-magnifying-glass d-block ps-3 pe-3 d-none d-lg-block"></i>
+            <button type="button" class="btn rounded-pill">log in</button>
+          </div>
           </div>
         </div>
       </nav>
+      <div class="land text-light text-center d-flex align-items-center justify-content-center ">
+        <h1 class ='mb-2'>Taste the Creativity</h1>
+        <p class = 'mb-5 f-s-6 text-white-50'>We make awesome graphic and web design</p>
+        <button type="button" class="btn rounded-pill">get started</button>
+      </div>
+      <div class="features my-5 py-5">
+        <div class="heading text-center my-5">
+          <img src="images/title.png" alt="title-photo">
+          <h2>We are Good at</h2>
+          <p>SOME OF THESE STUFF UNDER</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class = "feat position-relative col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-1 number"></i>
+              <i class="fa-solid fa-pencil position-absolute icon bottom-50"></i>
+              <h3 class = 'my-4 text-uppercase'>GRAPHIC DESIGN</h3>
+              <p class = 'lh-lg text-center '>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            </div>
+            <div class = "feat position-relative col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-2 number"></i>
+              <i class="fa-solid fa-tv position-absolute icon bottom-50"></i>
+              <h3 class = 'my-4 text-uppercase'>GRAPHIC DESIGN</h3>
+              <p class = 'lh-lg text-center '>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            </div>
+            <div class = "feat position-relative col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-3 number"></i>
+              <i class="fa-solid fa-book position-absolute icon bottom-50"></i>
+              <h3 class = 'my-4 text-uppercase'>GRAPHIC DESIGN</h3>
+              <p class = 'lh-lg text-center '>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="features my-5 py-5">
+      <div class="heading text-center my-5">
+        <img src="images/title.png" alt="title-photo">
+        <h2>We are Good at</h2>
+        <p>SOME OF THESE STUFF UNDER</p>
+      </div>
+      <div class="container">
+        <ul class="list-unstyled d-flex justify-content-center mt-5">
+          <li class="active m-2 rounded-pill px-2">all</li>
+          <li class="m-2">design</li>
+          <li class="m-2">code</li>
+          <li class="m-2">photo</li>
+          <li class="m-2">app</li>
+        </ul>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-11">
+            <div class="work-item bg-white position-relative" project = "project">
+              <img src="images/OIP.jpeg" alt="code" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-11">
+            <div class="work-item bg-white position-relative" project = "project">
+              <img src="images/OIP.jpeg" alt="code" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-11">
+            <div class="work-item bg-white position-relative" project = "project">
+              <img src="images/OIP.jpeg" alt="code" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-11">
+            <div class="work-item bg-white position-relative" project = "project">
+              <img src="images/OIP.jpeg" alt="code" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-11">
+            <div class="work-item bg-white position-relative" project = "project">
+              <img src="images/OIP.jpeg" alt="code" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-11">
+            <div class="work-item bg-white position-relative" project = "project">
+              <img src="images/OIP.jpeg" alt="code" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-11">
+            <div class="work-item bg-white position-relative" project = "project">
+              <img src="images/OIP.jpeg" alt="code" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-11">
+            <div class="work-item bg-white position-relative" project = "project">
+              <img src="images/OIP.jpeg" alt="code" class="img-fluid">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/app.js"></script>
