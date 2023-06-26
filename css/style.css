@@ -149,5 +149,9 @@ body {
   color: white;
   background-color: var(---green);
   font-size: 1.2rem;
-  
+
+}
+
+.blog-item {
+  border: 1px solid rgba(100, 99, 99, 0.486);
 }
