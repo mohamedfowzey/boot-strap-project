@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 
-p{
+p {
   color: #7f7f7f;
 }
 
@@ -141,17 +141,40 @@ body {
   background-color: var(---section-color);
 }
 
-.player{
+.player {
   padding: 5px;
 }
 
-.player h2{
+.player h2 {
   color: white;
   background-color: var(---green);
   font-size: 1.2rem;
-
 }
 
 .blog-item {
   border: 1px solid rgba(100, 99, 99, 0.486);
+}
+
+.subscribe {
+  background-color: var(---yellow);
+}
+.subscribe input[type = "email"]{
+  min-width: 50%;
+  background-color: transparent;
+  color: white;
+  border:none;
+  border-bottom: 1.5px solid white;
+  margin:0 8px;
+}
+
+.subscribe label[for = 'email']{
+  font-size: 1.3em;
+  color: var(---dark);
+  align-self: flex-start;
+  font-weight: 900;
+}
+ 
+.subscribe button[type = "submit"]{
+  background-color: var(---dark);
+  color: var(---yellow);
 }
