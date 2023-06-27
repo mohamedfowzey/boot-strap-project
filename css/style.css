@@ -167,6 +167,10 @@ body {
   margin:0 8px;
 }
 
+.subscribe input[type = "email"]:focus-visible{
+  outline: none;
+}
+
 .subscribe label[for = 'email']{
   font-size: 1.3em;
   color: var(---dark);
