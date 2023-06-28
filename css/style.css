@@ -17,8 +17,6 @@ p {
 body {
   box-sizing: border-box;
   font-family: "roboto";
-  width: 100vw;
-  height: 200vh;
 }
 .fa-magnifying-glass {
   border-left: 1px solid var(---green);
